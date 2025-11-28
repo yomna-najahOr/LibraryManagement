@@ -1,9 +1,9 @@
 package libraryy;
 
-public class main {
+public class Main {
 	public static void main(String[] args) {
         Admin admin = new Admin("admin", "1234");
-        library library = new library();
+        Library library = new Library();
 
         
         admin.login("admin", "1234");

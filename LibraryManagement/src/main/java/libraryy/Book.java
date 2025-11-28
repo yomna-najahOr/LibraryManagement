@@ -1,7 +1,9 @@
 
 package libraryy;
 import java.util.*;
-public class Book {
+
+import library.service.BookFine;
+public class Book extends MediaItem {
 	private String title;
     private String author;
     private String isbn;
@@ -23,5 +25,14 @@ public class Book {
     public String toString() {
         return String.format("Book[Title=%s, Author=%s, ISBN=%s, Available=%s]",
                 title, author, isbn, available ? "Yes" : "No");
+    }
+    @Override
+    public int getBorrowPeriod() {
+        return 28;
+    }
+
+    @Override
+    public int calculateFine(int overdueDays) {
+        return new BookFine().calculateFine(overdueDays);
     }
 }

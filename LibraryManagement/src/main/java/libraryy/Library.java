@@ -1,6 +1,6 @@
 package libraryy;
 import java.util.*;
-public class library {
+public class Library {
 	private List<Book> books = new ArrayList<>();
 
     public void addBook(Book book) {
