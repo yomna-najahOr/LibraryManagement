@@ -36,4 +36,9 @@ public class Borrow {
         }
         return (int) java.time.temporal.ChronoUnit.DAYS.between(dueDate, today);
     }
+
+	public Object getBook() {
+		
+		return null;
+	}
 }

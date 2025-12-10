@@ -1,6 +1,4 @@
-
-
-	package library.service;
+package library.service;
 
 	import java.time.LocalDate;
 	import java.util.List;

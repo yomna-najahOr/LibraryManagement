@@ -1,3 +1,10 @@
+/**
+ * Generates an overdue report containing:
+ * - A list of all overdue media items.
+ * - The total fine calculated for these items.
+ *
+ * Used by the system to display overdue summaries to the admin.
+ */
 package library.service;
 
 import libraryy.*;

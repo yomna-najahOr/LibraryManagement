@@ -13,6 +13,12 @@
 	import java.util.List;
 
 	import static org.mockito.Mockito.*;
+	/**
+	 * Background thread that periodically checks a user's overdue items
+	 * and sends reminders automatically every fixed interval.
+	 *
+	 * Simulates a real automated notification system used in libraries.
+	 */
 
 	public class DailyCheckerThreadTest {
 

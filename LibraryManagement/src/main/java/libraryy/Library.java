@@ -1,3 +1,9 @@
+/**
+ * Represents the library which stores all media items (books).
+ * This class allows adding books, searching for books, and finding books by ISBN.
+ *
+ * It acts as the main storage for items available to be borrowed.
+ */
 package libraryy;
 import java.util.*;
 /**

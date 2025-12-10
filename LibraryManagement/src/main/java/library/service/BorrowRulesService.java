@@ -1,3 +1,11 @@
+/**
+ * Contains the borrowing rules that determine whether a user
+ * is allowed to borrow an item.
+ *
+ * Rules include:
+ * - User must not have unpaid fines.
+ * - User must not have overdue loans.
+ */
 
 package library.service;
 

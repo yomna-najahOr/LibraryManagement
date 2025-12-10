@@ -1,3 +1,7 @@
+/**
+ * Data structure representing an overdue report.
+ * Stores a list of overdue items and the total fine value.
+ */
 package library.service;
 
 	import java.util.List;

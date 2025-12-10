@@ -1,3 +1,10 @@
+/**
+ * Handles borrowing operations in the library.
+ * Ensures the item is available, records the borrow date,
+ * and creates a Borrow record that is stored in the user's loan list.
+ *
+ * Also provides fine calculation based on overdue days.
+ */
 package library.service;
 import java.time.LocalDate;
 import libraryy.MediaItem;

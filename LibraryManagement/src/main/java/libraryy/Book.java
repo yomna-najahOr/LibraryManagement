@@ -1,3 +1,8 @@
+/**
+ * Represents a book as a media item in the library.
+ * Each book has a title, author, and ISBN, and supports borrowing rules
+ * such as borrow period, fine calculation, and overdue detection.
+ */
 
 package libraryy;
 import java.util.*;

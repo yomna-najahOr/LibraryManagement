@@ -1,7 +1,11 @@
 package libraryy;
 
 import library.service.CDFine;
-
+/**
+ * Represents a CD media item in the library.
+ * CDs have a fixed borrow period of 7 days.
+ * The fine calculation is delegated to the CDFine strategy class.
+ */
 public class CD extends MediaItem {
 
     private String id;
