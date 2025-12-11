@@ -81,8 +81,11 @@
     </build>
 <properties>
   <sonar.organization>yomna-najaho23</sonar.organization>
+       <sonar.projectKey>yomna-najahOr_LibraryManagement</sonar.projectKey>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
 </project>
+
 
 
 
