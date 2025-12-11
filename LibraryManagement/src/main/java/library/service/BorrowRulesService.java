@@ -1,11 +1,4 @@
-/**
- * Contains the borrowing rules that determine whether a user
- * is allowed to borrow an item.
- *
- * Rules include:
- * - User must not have unpaid fines.
- * - User must not have overdue loans.
- */
+
 
 package library.service;
 
@@ -14,6 +7,14 @@ import libraryy.User;
 
 import java.time.LocalDate;
 import java.util.List;
+/**
+ * Contains the borrowing rules that determine whether a user
+ * is allowed to borrow an item.
+ *
+ * Rules include:
+ * - User must not have unpaid fines.
+ * - User must not have overdue loans.
+ */
 
 public class BorrowRulesService {
 

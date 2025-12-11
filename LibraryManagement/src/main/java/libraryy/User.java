@@ -5,7 +5,6 @@ package libraryy;
  * Users accumulate fines and can make payments.
  */
 
-
 public class User {
 
     private String name;

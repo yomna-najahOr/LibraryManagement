@@ -1,30 +1,31 @@
-/**
- * The Main class represents the entry point of the Library Management System.
- * It provides a console-based menu that allows users and admins to interact
- * with the system: adding books, searching, borrowing, paying fines, generating
- * overdue reports, sending reminders, and unregistering users.
- *
- * This class coordinates all services such as BorrowService, BorrowRulesService,
- * ReminderService, OverdueReportService, and UserManagementService.
- */
 package libraryy;
 
 import library.ui.LibraryMenu;
-
-/*
-OLD Main.java:
-Contained all UI and business logic in one place, making it long and hard to read.
-*/
-
-// Refactored Main.java
-// Refactoring #1: Moved UI and business logic from Main to LibraryMenu
-// to make Main clean, simple, and easier to read.
+/**
+ * The Main class represents the entry point of the Library Management System.
+ * It starts the LibraryMenu interface and coordinates all main services.
+ * 
+ * Entry point of the application:
+ * - The class became simple after refactoring (Bad Smell #1).
+ * - It no longer contains menu logic or system operations.
+ * - All UI and business logic were moved to LibraryMenu.
+ * - Main class is now clean, simple, and easier to read.
+ */
 public class Main {
     public static void main(String[] args) {
+        /**Starts the user interface of the library system.
+         All menu logic and user interactions are handled in LibraryMenu.*/
         new LibraryMenu().start();
     }
 }
-/*package libraryy;
+
+/* 
+OLD Main.java (for report reference):
+Contained all UI and business logic in one place, making it long and hard to read.
+Moved everything to LibraryMenu for cleaner Main class.
+
+
+package libraryy;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -229,4 +230,3 @@ public class Main {
     }
     }
 */
-  

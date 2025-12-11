@@ -1,7 +1,4 @@
-/**
- * Sends reminder notifications to users who have overdue items.
- * The service uses an Observer (EmailNotifier) to notify users via messages.
- */
+
 package library.service;
 
 
@@ -9,6 +6,10 @@ import libraryy.User;
 import libraryy.Borrow;
 import java.time.LocalDate;
 import java.util.List;
+/**
+ * Sends reminder notifications to users who have overdue items.
+ * The service uses an Observer (EmailNotifier) to notify users via messages.
+ */
 
 public class ReminderService {
 
